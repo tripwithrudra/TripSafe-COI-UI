@@ -37,18 +37,10 @@
 .container__table td {
     width: 50%;
     border: 1px solid #5ED0E6;
-    padding: 1vw 0 1vw 2vw;
+    padding: 1vw 1vw 1vw 2vw;
 }
 
-@media screen and (max-width: 768px) {
-    .container__table__heading__title {
-        padding: 3vw 0;
-    }
 
-    .container__table td  {
-        padding: 2vw 0 2vw 3vw;
-    }
-}
 
 .container__table tr:nth-child(2) td {
     border-top: 0px;
@@ -58,15 +50,214 @@
     width: 100%;
     margin: 1rem 0;
     background-color: var(--gray);
-    padding: 1.5rem 3.5rem;
+    padding: 1.5vw 4vw;
+    text-align: justify;
 }
 
 .pec__title {
     color: #59595C;
     font-weight: 700;
     font-size: 1.1rem;
+    margin-bottom: 0.8rem;
 }
 
 .pec__text {
     font-size: 1rem;
+    color: #323F4F;
+}
+
+.coverage {
+    width: 90%;
+    margin: 2rem auto;
+    padding: 2vw 1vw;
+}
+
+.coverage__title {
+    font-size: 1.3rem;
+    color: var(--primary-blue);
+    margin-bottom: 1rem;
+}
+
+.coverage__container {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.coverage__container__covers {
+    border-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%) 1;
+    border-width: 4px;
+    border-style: solid;
+    padding: 0 1rem;
+}
+
+.coverage__container__covers_item {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.coverage__container__covers_item img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.coverage__container__covers_item__details__list li {
+    text-align: justify;
+    color: #323F4F;
+    font-weight: 300;
+}
+
+.footer {
+    background-color: var(--dark-blue);
+    border-radius: 2rem 2rem 0 0;
+    padding: 3vw 4vw 3vw 4vw;
+    color: var(--white);
+    line-height: 30px;
+}
+
+.footer__info {
+    display: flex;
+    gap: 3vw;
+    flex-wrap: wrap;
+}
+
+.footer__info__details {
+    flex: 1;
+}
+
+.footer__info__details__heading {
+    font-size: 1.5rem;
+}
+
+.footer__info__details__text {
+    color: #7CE9FF;
+}
+
+.footer__info__details__list {
+    list-style: none;
+    font-size: 1rem;
+}
+
+.footer__info__details__list__item {
+    display: flex;
+    align-items: center;
+}
+
+.footer__info__details__list__item__icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.footer__info__details__list__item__link {
+    color: var(--white);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.footer__info__details__list__item__link:hover {
+    text-decoration: none;
+}
+
+.footer__info__details__para {
+    font-size: 1rem;
+
+}
+
+.footer__info__details__para span {
+    font-weight: 700;
+    line-gap-override: 0.5rem;
+}
+
+.footer__info__details__para span a {
+    color: var(--white);
+}
+
+.footer__info__assistance {
+    border-radius: 0.8rem;
+    border: 2px solid var(--white);
+    overflow: hidden;
+    border-top: none;
+}
+
+.footer__info__assistance__heading {
+    background-color: #11B3D8;
+    padding: 1vw 2vw;
+    font-size: 1.5rem;
+    border-radius: 0.8rem;
+    border-top: 2px solid var(--white);
+    border-bottom: 2px solid var(--white);
+}
+
+.footer__info__assistance__list {
+    list-style: none;
+    font-size: 1rem;
+    padding: 1vw 1.5vw;
+}
+
+.footer__info__assistance__list__item {
+    display: flex;
+    align-items: center;
+}
+
+.footer__info__assistance__list__item__icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.footer__info__assistance__list__item__link {
+    color: var(--white);
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.footer__info__assistance__list__item__link:hover {
+    text-decoration: none;
+}
+
+.footer__policy {
+
+    margin-top: 1rem;
+}
+
+.footer__policy__para {
+    text-align: justify;
+    font-size: 0.9rem;
+}
+.footer__policy__para a {
+    color: #11B3D8;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.footer__policy__para a:hover {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .container__table__heading__title {
+        padding: 3vw 0;
+    }
+
+    .container__table td {
+        padding: 2vw 1vw 2vw 3vw;
+    }
+
+    .pec {
+        padding: 3vw 5vw;
+    }
+
+    .footer {
+        padding: 5vw 5vw 3vw 5vw;
+    }
+
+    .footer__info__details__heading {
+        font-size: 1.2rem;
+    }
+
+    .footer__info__details__list {
+        font-size: 0.8rem;
+    }
 }
