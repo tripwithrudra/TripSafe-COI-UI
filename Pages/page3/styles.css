@@ -1,0 +1,12 @@
+@import '../global.css';
+
+.container__title {
+    color: var(--primary-blue);
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    font-family: var(--inter-font);
+
+}
