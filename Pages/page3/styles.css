@@ -1,12 +1,72 @@
 @import '../global.css';
 
-.container__title {
-    color: var(--primary-blue);
-}
 
 .container {
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
-    font-family: var(--inter-font);
+    margin: 2rem auto;
+}
 
+.container__title {
+    color: var(--primary-blue);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.container__table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.container__table__heading {
+    text-align: center;
+    color: #323F4F;
+    font-size: 1rem;
+    border: 1px solid #5ED0E6;
+    border-bottom: none;
+    border-top: none;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.container__table__heading__title {
+    border-radius: 0.5rem;
+    padding: 1.5vw 0;
+    background-color: #5ED0E6;
+}
+
+.container__table td {
+    width: 50%;
+    border: 1px solid #5ED0E6;
+    padding: 1vw 0 1vw 2vw;
+}
+
+@media screen and (max-width: 768px) {
+    .container__table__heading__title {
+        padding: 3vw 0;
+    }
+
+    .container__table td  {
+        padding: 2vw 0 2vw 3vw;
+    }
+}
+
+.container__table tr:nth-child(2) td {
+    border-top: 0px;
+}
+
+.pec {
+    width: 100%;
+    margin: 1rem 0;
+    background-color: var(--gray);
+    padding: 1.5rem 3.5rem;
+}
+
+.pec__title {
+    color: #59595C;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.pec__text {
+    font-size: 1rem;
 }
