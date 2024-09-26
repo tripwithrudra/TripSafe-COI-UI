@@ -4,11 +4,40 @@
 .container{
     height:100vh;
     width: 100vw;
-    background-color: var(--black);
+    background-color: var(--white);
+}
+.container__header{
+    width: 100%;
+    height: 45%;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(90deg, #2F52E0 0%, #1CA8E6 100%);
+}
+.container__header__logo{
+    margin-left:5%;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    background-color: var(--white);
+}
+.container__header__logo--logo {
+    width:30px;
+    /* border-radius: 0 0 20px 20px; */
+}
+.container__header__logo--text{
+    font-family: var(--) ;
+    font-size: 50px;
 }
 
-
-h1{
-    color: var(--primary-blue)
+.container__header__family{
+    position: absolute;
+    right:0;
+    bottom:0;
+    border : 2px solid black;
+    /* width:100%; */
 }
-
+.container__header__family--image{
+    margin-bottom:-30px;
+    height:400px;
+    
+}
