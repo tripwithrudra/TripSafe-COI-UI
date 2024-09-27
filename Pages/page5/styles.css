@@ -1,34 +1,34 @@
-#page4 .header {
+#page5 .header {
   width: 100%;
   display: flex;
   gap: 1rem;
   background-color: var(--primary-blue);
   color: var(--white);
 }
-#page4 .header__logo {
+#page5 .header__logo {
   background-color: #F2EFEF;
   padding: 2rem 3rem;
   border-radius: 0 0.8rem 0.8rem 0;
   flex: 1;
 }
-#page4 .header__logo__image {
+#page5 .header__logo__image {
   width: 25rem;
   height: 5rem;
 }
-#page4 .header__info {
+#page5 .header__info {
   padding: 1rem 3rem 1rem 1rem;
   flex: 2;
   font-size: 1.5rem;
 }
-#page4 .header__info__text__heading {
+#page5 .header__info__text__heading {
   display: flex;
   align-items: center;
   gap: 0.5rem;
 }
-#page4 .header__info__text__heading__icon {
+#page5 .header__info__text__heading__icon {
   width: 1.5rem;
 }
-#page4 .header__info__text__details {
+#page5 .header__info__text__details {
   border: 1px solid var(--white);
   margin: 1rem 0;
   border-radius: 0.8rem;
@@ -36,7 +36,7 @@
   gap: 1rem;
   align-items: center;
 }
-#page4 .header__info__text__details__number {
+#page5 .header__info__text__details__number {
   display: flex;
   gap: 0.5rem;
   align-items: center;
@@ -46,26 +46,26 @@
   border-radius: 0.8rem;
   /* flex: 3; */
 }
-#page4 .header__info__text__details__number img {
+#page5 .header__info__text__details__number img {
   width: 1.2rem;
 }
-#page4 .header__info__text__details__para {
+#page5 .header__info__text__details__para {
   font-size: 1rem;
   padding: 0.5rem;
 }
-#page4 .container {
+#page5 .container {
   width: 90%;
   margin: 3rem auto;
   position: relative;
 }
-#page4 .container__image {
+#page5 .container__image {
   position: absolute;
   bottom: 0;
   right: 3rem;
   scale: 2;
   margin-bottom: 5%;
 }
-#page4 .customer {
+#page5 .customer {
   border: double 2px transparent;
   border-radius: 10px;
   background-image: linear-gradient(var(--white), var(--white)), linear-gradient(to right, #3a4ed5, #3acfd5);
@@ -73,7 +73,7 @@
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
-#page4 .customer__details {
+#page5 .customer__details {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   position: relative;
@@ -81,7 +81,7 @@
   place-items: center;
   padding-bottom: 1rem;
 }
-#page4 .customer___heading {
+#page5 .customer___heading {
   position: absolute;
   font-size: 1.4rem;
   font-weight: 600;
@@ -92,32 +92,32 @@
   padding: 0.5rem 1.3rem;
   border-radius: 10px;
 }
-#page4 .customer__details__item {
+#page5 .customer__details__item {
   padding: 1rem;
   text-align: start;
 }
-#page4 .customer__details__heading {
+#page5 .customer__details__heading {
   font-size: 1.2rem;
   font-weight: 600;
 }
-#page4 .customer__details__subheading {
+#page5 .customer__details__subheading {
   font-size: 1.2rem;
   font-weight: 600;
   color: #808080;
 }
-#page4 .services {
+#page5 .services {
   margin-bottom: 10rem;
 }
-#page4 .services__heading {
+#page5 .services__heading {
   color: var(--primary-blue);
   font-size: 2rem;
   margin: 3rem 0;
   text-align: center;
 }
-#page4 .services__details__item {
+#page5 .services__details__item {
   margin-bottom: 3rem;
 }
-#page4 .services__details__heading {
+#page5 .services__details__heading {
   color: var(--white);
   background-color: var(--dark-blue);
   font-size: 1.3rem;
@@ -130,28 +130,28 @@
   border-radius: 1rem;
   margin-bottom: 1.5rem;
 }
-#page4 .services__details__heading img {
+#page5 .services__details__heading img {
   width: 1.8rem;
 }
-#page4 .services__details__item__grid___container {
+#page5 .services__details__item__grid___container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
-#page4 .grid__item {
+#page5 .grid__item {
   background-color: #D7F7FF;
   padding: 2rem 1.5rem;
   border-radius: 0.5rem;
 }
-#page4 .grid__item__heading {
+#page5 .grid__item__heading {
   color: var(--primary-blue);
   font-weight: 400;
 }
-#page4 .footer {
+#page5 .footer {
   background-color: var(--gray);
   padding: 3rem 6rem 3rem 4rem;
   border-radius: 2rem 2rem 0 0;
 }
-#page4 .footer__text {
+#page5 .footer__text {
   color: #59595C;
 }/*# sourceMappingURL=styles.css.map */

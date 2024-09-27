@@ -1,0 +1,188 @@
+#page5 {
+    .header {
+        width: 100%;
+        display: flex;
+        gap: 1rem;
+        background-color: var(--primary-blue);
+        color: var(--white);
+        ;
+    }
+
+    .header__logo {
+        background-color: #F2EFEF;
+        padding: 2rem 3rem;
+        border-radius: 0 0.8rem 0.8rem 0;
+        flex: 1;
+    }
+
+    .header__logo__image {
+        width: 25rem;
+        height: 5rem;
+    }
+
+    .header__info {
+        padding: 1rem 3rem 1rem 1rem;
+        flex: 2;
+        font-size: 1.5rem;
+    }
+
+    .header__info__text__heading {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem
+    }
+
+    .header__info__text__heading__icon {
+        width: 1.5rem;
+    }
+
+    .header__info__text__details {
+        border: 1px solid var(--white);
+        margin: 1rem 0;
+        border-radius: 0.8rem;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .header__info__text__details__number {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        background-color: var(--white);
+        color: var(--primary-blue);
+        padding: 1rem;
+        border-radius: 0.8rem;
+        /* flex: 3; */
+    }
+
+    .header__info__text__details__number img {
+        width: 1.2rem;
+
+    }
+
+    .header__info__text__details__para {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .container {
+        width: 90%;
+        margin: 3rem auto;
+        position: relative;
+    }
+
+    .container__image {
+        position: absolute;
+        bottom: 0;
+        right: 3rem;
+        scale: 2;
+        margin-bottom: 5%;
+    }
+
+    .customer {
+        border: double 2px transparent;
+        border-radius: 10px;
+        background-image: linear-gradient(var(--white), var(--white)), linear-gradient(to right, #3a4ed5, #3acfd5);
+        border-style: solid;
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+    }
+
+    .customer__details {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        position: relative;
+        margin-top: 1.5rem;
+        place-items: center;
+        padding-bottom: 1rem;
+    }
+
+    .customer___heading {
+        position: absolute;
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-top: -20px;
+        margin-left: -2px;
+        background-color: #2F52E0;
+        color: var(--white);
+        padding: 0.5rem 1.3rem;
+        border-radius: 10px;
+    }
+
+    .customer__details__item {
+        padding: 1rem;
+        text-align: start;
+    }
+
+    .customer__details__heading {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+
+    .customer__details__subheading {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #808080;
+    }
+
+    .services {
+        margin-bottom: 10rem;
+    }
+
+    .services__heading {
+        color: var(--primary-blue);
+        font-size: 2rem;
+        margin: 3rem 0;
+        text-align: center;
+    }
+
+    .services__details__item {
+        margin-bottom: 3rem;
+    }
+
+
+    .services__details__heading {
+        color: var(--white);
+        background-color: var(--dark-blue);
+        font-size: 1.3rem;
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        width: max-content;
+        padding: 0.8rem 1.5rem;
+        border-radius: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .services__details__heading img {
+        width: 1.8rem;
+    }
+
+    .services__details__item__grid___container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .grid__item {
+        background-color: #D7F7FF;
+        padding: 2rem 1.5rem;
+        border-radius: 0.5rem;
+    }
+
+    .grid__item__heading {
+        color: var(--primary-blue);
+        font-weight: 400;
+    }
+
+    .footer {
+        background-color: var(--gray);
+        padding: 3rem 6rem 3rem 4rem;
+        border-radius: 2rem 2rem 0 0;
+    }
+
+    .footer__text {
+        color: #59595C;
+    }
+}
