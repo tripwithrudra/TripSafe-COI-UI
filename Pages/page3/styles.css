@@ -261,3 +261,25 @@
         font-size: 0.8rem;
     }
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-top: 1px solid #5ED0E6;
+    border-right: 1px solid #5ED0E6;
+    border-radius: 0 0 0.8rem 0.8rem;
+}
+
+.grid > span {
+    padding: 1vw 3vw;
+    border-left: 1px solid #5ED0E6;
+    border-bottom: 1px solid #5ED0E6;
+}
+
+.grid > span:last-child {
+    border-radius: 0 0 0.8rem 0;
+}
+
+.grid > span:nth-last-child(2) {
+    border-radius: 0 0 0 0.8rem;
+}
