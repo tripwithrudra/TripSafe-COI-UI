@@ -190,17 +190,13 @@
     margin: 0 3rem;
 }
 .container__safety__fee{
-    /* text-align: center; */
     border-radius: 43px 43px 0 0;
     padding:2rem;
     position:absolute;
     right:0;
     bottom:0;
     z-index: 10;
-    /* border:2px solid black; */
     margin-bottom: -2rem;
-    /* height:3rem; */
-    /* width:fit-content; */
     background-color: rgba(253, 254, 255, 0.7);
 }
 .container__safety__fee--heading{
