@@ -1,0 +1,81 @@
+@import '../global.css';
+
+
+.container{
+    height:100vh;
+    width:100vw;
+    background-color: var(--white);
+}
+.container__top img{
+    width:100vw ;
+}
+.container__details{
+    margin:0 5rem;
+    /* border:2px solid black; */
+}
+.container__details--caption{
+    margin:1rem 0;
+    text-align: center;
+}
+.container__details__banner{
+    height:4rem;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #6AE2FF 0%, #2F52E0 100%);
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container__details__banner--text{
+   color:var(--white);
+   font-size: 1.3rem;
+   font-weight: 500;
+}
+.container__details--congrats{
+    font-size: 2rem;
+    font-weight: 600;
+    margin:1.2rem 0 2rem 0;
+}
+
+.container__customer--parent{
+    border:1px solid black;
+    border: double 2px transparent;
+    border-radius: 10px;
+    background-image: linear-gradient(white, white), linear-gradient(to right, #3a4ed5, #3acfd5);
+    border-style: solid;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    margin-bottom: 4rem;
+    
+}
+
+.conatiner__details--customer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+.conatiner__details--customer--heading{
+    position:absolute;
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: -20px ;
+    margin-left: -2px;
+    background-color:#2F52E0;
+    color: var(--white);
+    padding: 0.5rem 1.3rem;
+    border-radius: 10px;
+}
+.conatiner__details--customer--details{
+    padding:1rem;
+    text-align: start;
+}
+.conatiner__details--customer--details--heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.conatiner__details--customer--details--subheading{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:grey;
+}
