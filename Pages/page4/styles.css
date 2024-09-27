@@ -1,0 +1,66 @@
+@import '../global.css';
+
+.header {
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    background-color: var(--primary-blue);
+    color: var(--white);;
+}
+
+.header__logo {
+    background-color: #F2EFEF;
+    padding: 2rem 3rem;
+    border-radius: 0 0.8rem 0.8rem 0;
+    flex: 1;
+}
+
+.header__logo__image {
+    width: 25rem;
+    height: 5rem;
+}
+
+.header__info {
+    padding: 1rem 3rem 1rem 1rem;
+    flex: 2;
+    font-size: 1.5rem;
+}
+
+.header__info__text__heading {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem
+}
+
+.header__info__text__heading__icon {
+    width: 1.5rem;
+}
+
+.header__info__text__details {
+    border: 1px solid var(--white);
+    margin: 1rem 0;
+    border-radius: 0.8rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.header__info__text__details__number {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    background-color: var(--white);
+    color: var(--primary-blue);
+    padding: 1rem;
+    border-radius: 0.8rem;
+    /* flex: 3; */
+}
+.header__info__text__details__number img  {
+    width: 1.2rem;
+
+}
+
+.header__info__text__details__para {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
