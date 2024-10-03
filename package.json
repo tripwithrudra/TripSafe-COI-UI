@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "handlebars": "^4.7.8",
     "puppeteer-html-pdf": "^4.0.8"
   }
 }
