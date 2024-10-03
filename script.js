@@ -7,8 +7,7 @@ const options = {
 };
 htmlPDF.setOptions(options);
 
-const content = `
-<html lang="en" style="margin: 0;padding: 0;box-sizing: border-box;font-family: var(--inter-font);color: var(--black);">
+const content = `<html lang="en" style="margin: 0;padding: 0;box-sizing: border-box;font-family: var(--inter-font);color: var(--black);">
 
 <head>
     <meta charset="UTF-8">
@@ -231,7 +230,7 @@ const content = `
                                 <p style="margin: 0;padding: 0;box-sizing: border-box">Support</p>
                             </div>
                             <div class="footer__support--details"
-                                style="margin: 0 2rem;padding: 0;box-sizing: border-box;width: 100%;display: grid; gap: 10px; grid-template-columns: auto auto;text-align: start;padding-top: 0.4rem;font-size: 11px;font-weight: 600;color: grey;">
+                                style="margin: 0 2rem;padding: 0;box-sizing: border-box;width: 100%;display: grid; gap: 10px; grid-template-columns: auto auto;text-align: start;padding-top: 0.4rem;font-size: 10px;font-weight: 600;color: grey;">
                                 <div style="margin: 0;padding: 0;box-sizing: border-box;">
                                     <p style="margin: 0;padding: 0;box-sizing: border-box;">TripSafe helpline (8 am - 11
                                         pm IST): <span class="footer__support--details--links"
